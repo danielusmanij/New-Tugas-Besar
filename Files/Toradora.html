@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		var angka = 1
+
+		$(document).ready(function(){
+			$(".buttonkiri").click(function(){
+
+			angka--;
+			if(angka==0)
+				angka=6;
+				$(".Gambar").attr('src',angka+".jpg");
+		});
+			$(".buttonkanan").click(function(){
+			angka++;
+			if(angka==7)
+				angka=1;
+				$(".Gambar").attr('src',angka+".jpg");
+		});
+		});
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Our Hobbies">
+	<meta name="Author" content="Arief Kurniawan and Daniel Eliezer">
+	<title>Our Hobbies</title>
+	<link rel="stylesheet" href="Toradora.css">
+	<link rel="icon" type="image/gif" href="../Image/animated_favicon1.gif">
+</head>
+<body>
+<header>
+ <div class="container">
+			<div id="branding">
+				<h1><span class="highlight"><img width="50px" height="50px" src="../Image/tigerr.png" width="50px" height="50px">TORADORA</span></h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="Arief_Profile_Page.html">Arief's Profile</a></li>
+					<li><a href="Daniel_Profile_Page.html">Daniel's Profile</a></li>
+				</ul>
+			</nav>
+		</div>
+</header>
+
+<div class="wrapper">
+	<div class="grid-container">
+		<div class="Grid_Utama">
+			<content>
+				<table width="750px" height="100%">
+					<th colspan="3">TRAILER</th>
+					<tr ><td><iframe width="100%" height="480px" src="https://www.youtube.com/embed/NYyVFBrHJFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</td></tr>
+				</table>
+				<p><br/></p>
+				<table class="Main_Character" width="750px" height="50%">
+					<th colspan="3">MAIN CHARACTERS!</th>
+					<tr>
+						<td align="center" width="15%">Ryuuji Takasu</td>
+						<td align="center" width="25%"><img src="../Image/Ryuuji.jpg" width="175px" height="250px"></td>
+						<td align="justify" width="60%">The series' main male protagonist. Ryuuji is a seventeen-year-old high school student in his second year, in class 2-C. Due to biological inheritance, his sanpaku eyes make him look like an intimidating delinquent and cause many misunderstandings. He lives in a fatherless family with just his mother and, due to this, Ryuuji has learned to be self-sufficient. He is good at cooking and keeps everything in his house clean (to the point of obsession), and also excels at sewing.</td>
+					</tr>
+					<tr>
+						<td align="center" width="15%">Aisaka Taiga</td>
+						<td align="center" width="25%"><img src="../Image/PPAisaka.png" width="175px" height="250px"></td>
+						<td align="justify" width="60%">The main female protagonist of the Toradora! series. Due to her often snapping at others in brutal ways and her short stature, she is given the nickname "Palmtop Tiger". Essentially, Taiga is meant to be a deconstruction of the tsundere, showing rapid mood swings, being emotionally unstable, and making poor decisions based solely on emotions.</td>
+					</tr>
+					<tr>
+						<td align="center" width="15%">Minori Kushieda</td>
+						<td align="center" width="25%"><img src="../Image/minori.jpg" width="175px" height="250px"></td>
+						<td align="justify" width="60%">one of the series' female protagonists. Minori is a girl in Ryuuji's class, Class 2-C and is Taiga Aisaka's best friend. She is also known by the pet name "Minorin" (as a form of friendly affection).</td>
+					</tr>
+					<tr>
+						<td align="center" width="15%">Yusaku Kitamura</td>
+						<td align="center" width="25%"><img src="../Image/yusaku.jpg" width="175px" height="250px"></td>
+						<td align="justify" width="60%">is in Class 2-C with Taiga, Ryuuji, Minori and Ami. He is the secondary male protagonist, after Ryuuji. He's also the student council's vice-president and later becomes the president of the student council.</td>
+					</tr>
+					<tr>
+						<td align="center" width="15%">Ami Kawashima</td>
+						<td align="center" width="25%"><img src="../Image/ami.jpg" width="175px" height="250px"></td>
+						<td align="justify" width="60%">one of the series' heroines. She has a deep understanding of the relationship situation going on between Minori, Ryuuji, Taiga, and herself.</td>
+					</tr>
+
+				</table>
+				<table class="Wallpaper" width="750px" height="50%">
+					<th colspan="3">Wallpaper</th>
+					<tr>
+						<td>
+							<div id="left">
+								<img class ="buttonkiri" src="../Image/JavascriptPictures/ToradoraPictures/leftbutton.png" height="50px" width="50px">
+							</div>
+						</td>
+						<td>
+						<img class="Gambar" src="../Image/JavascriptPictures/ToradoraPictures/1.jpg" height="400px" width="650px">
+						</td>
+						<td>
+							<div id="right">
+								<img class ="buttonkanan" src="../Image/JavascriptPictures/ToradoraPictures/rightbutton.png" height="50px" width="50px">
+							</div>
+						</td>
+					</tr>
+				</table>
+
+			</content>
+		</div>
+
+		<div class="Grid_Deskripsi">
+			<aside>
+
+				<table width="80%" height="5%">
+					<th><img src="../Image/iconlink.png" width="55px" height="45px">LINKS<img src="../Image/link.png" width="55px" height="45px"></th>
+					<tr><td><a href="Dota2.html"><button class="button">DOTA2</button></td></a></tr>
+					<tr><td><a href="Witcher3.html"><button class="button button2">WITCHER3</button></td></tr>
+					<tr><td><a href="Fortnite.html"><button class="button button3">FORTNITE</button></td></tr>
+					<tr><td><a href="Clannad.html"><button class="button button4">CLANNAD</button></td></tr>
+					<tr><td><a href="Onepiece.html"><button class="button button5">ONE PIECE</button></td</tr>
+					<tr><td><a href="Toradora.html"> <button class="button button6">TORADORA</button> </a></td></tr>
+			
+				</table>
+				<table width="80%" height="25%">
+					<th>TORADORA!? <span class="imdbRatingPlugin" data-user="ur68955288" data-title="tt1279024" data-style="p1"><a href="https://www.imdb.com/title/tt1279024/?ref_=plg_rt_1"><img src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" Toradora!(2008) on IMDb" />
+								</a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="https://ia.media-imdb.com/images/G/01/imdb/plugins/rating/js/rating.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script></th>
+					<tr>
+						<td align="center" bgcolor="#FFD27F"><font size="5px">Toradora! revolves around <b>Ryuuji Takasu</b>, despite his gentle personality, his eyes make him look like an intimidating delinquent. Class rearrangements on his second high school year put him together with his best friend, <b>Yusaku Kitamura</b>, and his hidden crush, <b>Minori Kushieda</b>. Along with these two comes Minori's best friend, <b>Taiga Aisaka</b> who is also known as the school's <b>"Palmtop Tiger"</b>. Taiga's delicate appearance contrasts with her brutal personality. <b>Ryuuji</b> finds out that <b>Taiga</b> has a secret crush on <b>Kitamura</b> and <b>Taiga</b> agrees to help <b>Ryuuji</b> with his love interest as long as he helps her get closer to hers.</font></td>
+					</tr>
+				</table>
+
+				<table width="80%" height="25%">
+					<th>TORADORA FACT</th>
+					<tr>
+						<td align="justify"><b><font size="5px" color="black">
+							The title <b>Toradora!</b> is derived from the names of the two main characters Taiga Aisaka and Ryūji Takasu. Taiga and Tora are Japanese terms for tiger, while Ryū means dragon.</font></b>
+						</td>
+					</tr>
+				</table>
+			</aside>
+		</div>
+	</div>
+</div>
+
+<footer>
+			<marquee><p>&copy; 2018. This site is created by Arief and Daniel  </p></marquee>
+		</footer>
+</body>
+</html>

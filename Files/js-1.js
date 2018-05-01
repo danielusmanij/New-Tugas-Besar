@@ -1,0 +1,13 @@
+	$(document).ready(function(){
+		$(".lima1").click(function(){
+			$(".lima").slideToggle("slow");
+		});
+		$(".menit1").click(function(){
+			$(".menit").slideToggle("slow");
+		});
+		$(".kiper1").click(function(){
+			$(".kiper").slideToggle("slow");
+		$(".gawang1").click(function(){
+			$(".gawang").slideToggle("slow");
+		});
+	});
